@@ -1,0 +1,134 @@
+[
+  {
+    "ts": "2020-02-01T04:36:07.626Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "xwh74664i9pl"
+            }
+          },
+          "id": "7hlEFYl579kGDEEbfylxvC",
+          "type": "Asset",
+          "createdAt": "2020-02-01T04:35:38.789Z",
+          "updatedAt": "2020-02-01T04:35:38.789Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kfyV0Dn8DWxsPFYYhWRFh"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kfyV0Dn8DWxsPFYYhWRFh"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "The flash"
+          },
+          "description": {
+            "en-US": "The flash"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/b7km0t64rdcd/7hlEFYl579kGDEEbfylxvC/1cb85e713fc4c534c46a339b1a1e0604/flash.jpg",
+              "fileName": "flash.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\my projects\\practice\\react-contentful-nextjs-tutorial\\node_modules\\contentful-management\\dist\\contentful-management.node.js:10522:21",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-02-01T04:36:07.784Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "xwh74664i9pl"
+            }
+          },
+          "id": "6PsEXzp4l2Doyqm1F41opi",
+          "type": "Asset",
+          "createdAt": "2020-02-01T04:35:38.771Z",
+          "updatedAt": "2020-02-01T04:35:38.771Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kfyV0Dn8DWxsPFYYhWRFh"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kfyV0Dn8DWxsPFYYhWRFh"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Batman"
+          },
+          "description": {
+            "en-US": "About batman"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/b7km0t64rdcd/6PsEXzp4l2Doyqm1F41opi/7002dce32b08986903fb5681861bc765/batman.jpg",
+              "fileName": "batman.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\my projects\\practice\\react-contentful-nextjs-tutorial\\node_modules\\contentful-management\\dist\\contentful-management.node.js:10522:21",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  }
+]
